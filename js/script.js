@@ -41,7 +41,7 @@ function createRandomCircle(rectangleElement) {
   circle.style.height = `${size}px`;
   circle.style.left = `${position.x}px`;
   circle.style.top = `${position.y}px`;
-  circle.style.backgroundColor = "rgba(255, 0, 255, 1)";
+  circle.style.backgroundColor = "rgba(255, 0, 0, 1)";
   circle.style.position = "absolute";
   circle.style.borderRadius = "50%";
   circle.style.filter = "blur(50px)";
@@ -80,33 +80,3 @@ const spotifyPlayerElement = document.querySelector(".spotifyplayer");
 
 createRandomCircles(rectangleElement);
 createRandomCircles(spotifyPlayerElement);
-
-const player = document.querySelector('.player');
-const audio = player.querySelector('audio');
-const playButton = player.querySelector('.play-button');
-const pauseButton = player.querySelector('.pause-button');
-const rewindButton = player.querySelector('.rewind-button');
-const fastForwardButton = player.querySelector('.fast-forward-button');
-const volumeSlider = player.querySelector('.volume-slider');
-
-function play() {
-  audio.play();
-  pauseButton.classList.remove('hidden');
-  playButton.classList.add('hidden');
-}
-
-function pause() {
-  audio.pause();
-  pauseButton.classList.add('hidden');
-  playButton.classList.remove('hidden');
-}
-
-audio.addEventListener('play', function() {
-  pauseButton.classList.remove('hidden');
-  playButton.classList.add('hidden');
-});
-
-audio.addEventListener('pause', function() {
-  pauseButton.classList.add('hidden');
-  playButton.classList.remove('hidden');
-});
