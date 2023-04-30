@@ -50,7 +50,6 @@ body {
     padding: 20px;
     box-sizing: border-box;
     background-color: #242424;
-    opacity: 0.5;
     overflow: hidden;
     position: relative;
     border-radius: 20px;
@@ -69,7 +68,6 @@ body {
 .social-links-rectangle {
     display: flex;
     gap: -10px;
-    opacity: 1;
 }
 
 .nickname {
@@ -77,7 +75,6 @@ body {
     color: white;
 	margin: 0;
 	margin-bottom: -10px;
-	opacity: 1;
 }
 
 .discord {
@@ -87,7 +84,6 @@ body {
 	font-weight: normal;
 	margin-bottom: -10px;
 	margin-top: -25px;
-	opacity: 1;
 }
 
 .content {
@@ -97,7 +93,6 @@ body {
     justify-content: center;
     height: 100%;
     gap: 20px;
-    opacity: 1;
 }
 
 
