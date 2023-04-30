@@ -50,6 +50,7 @@ body {
     padding: 20px;
     box-sizing: border-box;
     background-color: #242424;
+    transparent: 45%;
     overflow: hidden;
     position: relative;
     border-radius: 20px;
