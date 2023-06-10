@@ -40,6 +40,15 @@ body {
 	flex-direction: column;
 }
 
+.discord {
+    height: 26px;
+    width: auto;
+    border-radius: 85px;
+    margin: 0;
+    margin-bottom: -12px;
+    margin-top: -25px;
+}
+
 .rectangle {
     width: 300px;
     height: 400px;
